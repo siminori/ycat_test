@@ -1,0 +1,19 @@
+sozai.anchorage.co.jp/
+
+# バックアップ用のディレクトリを無視する
+bk/
+
+
+
+# “test” から始まるテキストファイル（.html | .php）を無視する
+test*.php
+test*.html
+
+
+# Vim のスワップファイル（.swp/.swo/.swn）を無視
+# *.sw? → 拡張子が swp/swo/swn のいずれかをまとめてキャッチ
+*.sw?
+
+# Vim の通常バックアップファイル（末尾に ~ が付くもの）を無視
+*~
+

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>StickyState</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="../dist/sticky-state.css">
+    <script src="../dist/sticky-state.min.js"></script>
+  </head>
+  <body>
+    <div class="center">
+    <h2>StickyState</h2>
+    <small id="output"></small>
+    <p>A test page for the <a href="https://github.com/soenkekluth/sticky-state">StickyState project</a></p>
+    <small><p>markup and styles of this document are mostly copied from <a href="http://filamentgroup.github.io/fixed-sticky/demos/demo.html">filamentgroup</a></p></small>
+
+    <div class="container" style="height: 600px; padding-top: 100px;">
+      <div class="top sticky" id="top-a">
+        Fixed to viewport top A.
+        <div class="state">state: </div>
+        <div class="scroll">scrolling: </div>
+      </div>
+    </div>
+    </div>
+  <div>
+    <hr>
+  <div style="padding-top:5%; padding-bottom:5%; text-align:center">
+    spacer for resize testing
+    </div>
+    <hr>
+  </div>
+    <div class="center">
+    <div class="overflow-x">
+      <div class="overflow-content">
+        <h2 class="sticky-- left-headline">scroll horizontal</h2>
+      </div>
+    </div>
+
+
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga ut, maxime reiciendis ab pariatur eaque, suscipit esse tempora nesciunt atque assumenda a, consequatur ex et illo qui accusamus facere quis ipsam tenetur. Eaque molestias quo laudantium odio! Velit nobis, consequatur.</p>
+
+    <div id="top-b" class="top sticky" >
+      Fixed to viewport top <br> with margin-top
+      <div class="state">state: </div>
+      <div class="scroll">scrolling: </div>
+    </div>
+
+    <p>And now, some fake content to allow scrolling...</p>
+
+    <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+
+    <h2>Header Level 2</h2>
+
+    <ol>
+       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+       <li>Aliquam tincidunt mauris eu risus.</li>
+    </ol>
+
+    <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
+
+    <h3>Header Level 3</h3>
+
+    <ul>
+       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+       <li>Aliquam tincidunt mauris eu risus.</li>
+    </ul>
+
+
+    <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+
+    <h2>Header Level 2</h2>
+
+    <ol>
+       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+       <li>Aliquam tincidunt mauris eu risus.</li>
+    </ol>
+
+    <div id="bottom-b" class="bottom sticky">
+      Fixed to viewport bottom B (1em above).
+      <div class="state">state: </div>
+      <div class="scroll">scroll: </div>
+    </div>
+    <div class="container">
+      <div style="height: 600px"></div>
+      <div id="bottom-a" class="bottom sticky">
+        Fixed to viewport bottom A.
+        <div class="state">state: </div>
+        <div class="scroll">scroll: </div>
+      </div>
+    </div>
+
+    <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
+
+    <h3>Header Level 3</h3>
+
+    <ul>
+       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+       <li>Aliquam tincidunt mauris eu risus.</li>
+    </ul>
+
+    <h2>Sticky with overflow</h2>
+    <p>fully supported. native and polyfilled</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint quaerat excepturi, amet. Corporis pariatur illum ab, ea placeat delectus impedit.</p>
+
+    <div class="container" style="height: 600px; overflow: auto; -webkit-overflow-scrolling: touch;">
+      <p style="padding:10px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint quaerat excepturi, amet. Corporis pariatur illum ab, ea placeat delectus impedit.</p>
+      <p style="padding:10px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint quaerat excepturi, amet. Corporis pariatur illum ab, ea placeat delectus impedit.</p>
+      <div class="top sticky" style="top: 3.2em;">
+        Fixed to overflow div top.
+        <div class="state">state: </div>
+        <div class="scroll">scrolling: </div>
+      </div>
+      <p style="padding:10px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint quaerat excepturi, amet. Corporis pariatur illum ab, ea placeat delectus impedit.</p>
+      <p style="padding:10px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint quaerat excepturi, amet. Corporis pariatur illum ab, ea placeat delectus impedit.</p>
+      <div style="height: 1000px"></div>
+    </div>
+
+    <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+
+    <h2>Header Level 2</h2>
+
+    <ol>
+       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+       <li>Aliquam tincidunt mauris eu risus.</li>
+    </ol>
+
+    <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
+
+    <h3>Header Level 3</h3>
+
+    <ul>
+       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+       <li>Aliquam tincidunt mauris eu risus.</li>
+    </ul>
+
+
+    <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+
+    <h2>Header Level 2</h2>
+
+    <ol>
+       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+       <li>Aliquam tincidunt mauris eu risus.</li>
+    </ol>
+
+    <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
+
+    <h3>Header Level 3</h3>
+
+    <ul>
+       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+       <li>Aliquam tincidunt mauris eu risus.</li>
+    </ul>
+
+
+    <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+
+    <h2>Header Level 2</h2>
+
+    <ol>
+      <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+      <li>Aliquam tincidunt mauris eu risus.</li>
+    </ol>
+
+    </div>
+
+    <script>
+
+    console.log(StickyState);
+    var out = StickyState.native ? 'native position:sticky supported. state is added' : 'position:sticky is polyfilled';
+    document.querySelector('#output').innerText = out;
+
+    function onStickyChange(e) {
+      if(console){
+        console.log(e.type , e.target.id);
+      }
+    };
+
+    new StickyState(document.querySelectorAll('.sticky'), {
+      scrollClass:{
+        down: 'sticky-scroll-down',
+        up: 'sticky-scroll-up'
+      }
+    })
+    .on('sticky:on', onStickyChange)
+    // .on('sticky:off', onStickyChange);
+
+    </script>
+
+  </body>
+</html>

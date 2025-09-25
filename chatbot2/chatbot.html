@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang= "ja">
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+		<meta http-equiv="content-type" charset="utf-8">
+		<title>Chatbot</title>
+	</head>
+	<body>
+
+		<div class="chatBotBox">
+
+
+			<span class="chatBotBox__miniIcon"><img src="chatbot_banner.png" alt="" /></span>
+			<div class="chatBotBox__inner">
+				 <!-- チャットヘッダー -->
+				 <div class="chatBotBox__header">
+					 <p class="chatBotBox__tit">カスタマーサポート</p>
+					 <input type="button" class="chatBotBox__close" value="×">
+				 </div>
+				 
+				 <!--チャット表示画面-->
+				 <div id= "chatField">
+					<ul id= "chat-ul"></ul>
+				 </div>
+				 
+				 <!--検索ボックス（wp検索）-->
+				 <div id= "chatInput-field">
+					 <select id="chatBotSlecter">
+						<option value=""></option>
+						<option value="replyType01">計測人数に合った製品を探している</option>
+						<option value="replyType02">製品の資料をダウンロードしたい</option>
+						<option value="replyType03">カメラの導入実績を知りたい</option>
+						<option value="replyType04">製品をオンラインで購入したい</option>
+						<option value="replyType05">購入前に商品を見たい・触りたい</option>
+						<option value="replyType06">製品について問い合わせしたい</option>
+						<option value="replyType10">補助金・助成金の情報について</option>
+					</select>
+				 </div>
+			</div>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+		<link href="chatbot.css" rel="stylesheet">
+		<script src="chatbot.js" defer></script>
+
+
+	</body>
+</html>

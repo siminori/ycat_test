@@ -1,0 +1,16 @@
+cache:
+  mount:
+    - node_modules
+    - .git
+build:
+  image: node:6.2.2
+  commands:
+    - npm install
+publish:
+  sftp:
+    host: soenkekluth.com
+    username: soenkekluth
+    destination_path: /dev.soenkekluth.com/sticky-state
+    files:
+      - dist/*
+      - examples/*
