@@ -1,0 +1,254 @@
+
+■　バス路線案内構成
+======================
+ケ　五井・蘇我
+======================
+
+	# ■ バス路線案内
+
+	goi-soga
+
+	## YCAT⇒五井・蘇我
+
+	goi-soga/ycat2goi-soga
+
+	## 五井・蘇我⇒YCAT　
+
+	goi-soga/goi-soga2ycat
+
+	https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/goi-soga/
+	https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/goi-soga/ycat2goi-soga/
+	https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/goi-soga/goi-soga2ycat/
+
+
+	# ■ 時刻表CSV
+
+	バスルート
+
+
+
+	-----
+
+	### インフォメーション用カテゴリー
+
+		五井・蘇我（goi-soga）
+
+	### よくある質問用カテゴリー
+
+		五井・蘇我（goi-soga）
+
+
+======================
+ケ　君津バスターミナル・館山
+======================
+
+	# ■ バス路線案内
+
+	kimitsu-tateyama
+
+	## YCAT⇒君津バスターミナル・館山
+
+	kimitsu-tateyama/ycat2kimitsu-tateyama
+
+	## 君津バスターミナル・館山⇒YCAT　
+
+	kimitsu-tateyama/kimitsu-tateyama2ycat
+
+	https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/kimitsu-tateyama/
+	https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/kimitsu-tateyama/ycat2kimitsu-tateyama/
+	https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/kimitsu-tateyama/kimitsu-tateyama2ycat/
+
+
+
+	# ■ 時刻表CSV
+
+	バスルート
+
+
+
+	-----
+
+	### インフォメーション用カテゴリー
+
+		君津バスターミナル・館山（kimitsu-tateyama）
+
+	### よくある質問用カテゴリー
+
+		君津バスターミナル・館山（kimitsu-tateyama）
+
+======================
+コ　茂原
+======================
+
+	# ■ バス路線案内
+
+	mobara
+
+	## YCAT⇒茂原
+
+	mobara/ycat2mobara
+
+	## 茂原⇒YCAT　
+
+	mobara/mobara2ycat
+
+
+	https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/mobara/
+	https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/mobara/ycat2mobara/
+	https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/mobara/mobara2ycat/
+
+	-----
+
+	### インフォメーション用カテゴリー
+
+		茂原（mobara）
+
+	### よくある質問用カテゴリー
+
+		茂原（mobara）
+
+======================
+サ　御殿場・箱根桃源台
+======================
+
+	# ■ バス路線案内
+
+	gotemba-hakone
+
+	## YCAT⇒御殿場・箱根桃源台
+
+	gotemba-hakone/ycat2gotemba-hakone
+
+	## 御殿場・箱根桃源台⇒YCAT　
+
+	gotemba-hakone/gotemba-hakone2ycat
+
+
+	https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/gotemba-hakone/
+	https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/gotemba-hakone/ycat2gotemba-hakone/
+	https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/gotemba-hakone/gotemba-hakone2ycat/
+
+
+	# ■ 時刻表CSV
+
+	バスルート
+
+
+
+	-----
+
+	### インフォメーション用カテゴリー
+
+		御殿場・箱根桃源台（gotemba-hakone）
+
+	### よくある質問用カテゴリー
+
+		御殿場・箱根桃源台（gotemba-hakone）
+
+======================
+シ　甲府・竜王
+======================
+
+	# ■ バス路線案内
+
+	kofu-ryuo
+
+	## YCAT⇒甲府・竜王
+
+	kofu-ryuo/ycat2kofu-ryuo
+
+	## 甲府・竜王⇒YCAT　
+
+	kofu-ryuo/kofu-ryuo2ycat
+
+	https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/kofu-ryuo/
+	https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/kofu-ryuo/ycat2kofu-ryuo/
+	https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/kofu-ryuo/kofu-ryuo2ycat/
+
+
+	# ■ 時刻表CSV
+
+	バスルート
+
+
+
+	-----
+
+	### インフォメーション用カテゴリー
+
+		甲府・竜王（kofu-ryuo）
+
+	### よくある質問用カテゴリー
+
+		甲府・竜王（kofu-ryuo）
+
+
+======================
+ス　三井アウトレットパーク木更津
+======================
+
+	# ■ バス路線案内
+
+	mitsui-kisarazu
+
+	## YCAT⇒三井アウトレットパーク木更津
+
+	mitsui-kisarazu/ycat2mitsui-kisarazu
+
+	## 三井アウトレットパーク木更津⇒YCAT　
+
+	mitsui-kisarazu/mitsui-kisarazu2ycat
+
+
+	https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/mitsui-kisarazu/
+	https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/mitsui-kisarazu/ycat2mitsui-kisarazu/
+	https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/mitsui-kisarazu/mitsui-kisarazu2ycat/
+
+
+	# ■ 時刻表CSV
+
+	バスルート
+
+
+
+	-----
+
+	### インフォメーション用カテゴリー
+
+		三井アウトレットパーク木更津（mitsui-kisarazu）
+
+	### よくある質問用カテゴリー
+
+		三井アウトレットパーク木更津（mitsui-kisarazu）
+
+
+
+■■■■■■■■■■■■■■■■■■■■■
+その他
+■■■■■■■■■■■■■■■■■■■■■
+
+■　〇　サイトマップページ更新
+
+https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/sitemap/
+
+
+■　〇　バス路線案内 / 時刻表・運賃
+
+https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/
+
+
+■　〇　chatgot風機能の更新
+
+/chatbot2/chatbotData.php
+
+■　〇　フッター
+
+include_footer.php
+
+■　〇　spナビゲーション
+
+include_toggle.php
+
+■　サイドナビゲーション
+
+include_nav.php

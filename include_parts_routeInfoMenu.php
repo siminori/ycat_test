@@ -58,6 +58,51 @@
 						<p class="routeInfoMenu__item__tit">幕張メッセ<span>イベント日限定</span></p>
 					</a>
 				</li>
+
+
+				<li class="routeInfoMenu__item type02">
+					<a href="<?=get_bloginfo("url"); ?>/route/goi-soga/" class="over">
+						<p class="routeInfoMenu__item__pic"><img src="<?=get_bloginfo('template_directory'); ?>/img/routeInfoMenu_goi-soga.png" alt="五井・蘇我" /></p>
+						<p class="routeInfoMenu__item__tit">五井・蘇我</p>
+					</a>
+				</li>
+
+				<li class="routeInfoMenu__item type02">
+					<a href="<?=get_bloginfo("url"); ?>/route/kimitsu-tateyama/" class="over">
+						<p class="routeInfoMenu__item__pic"><img src="<?=get_bloginfo('template_directory'); ?>/img/routeInfoMenu_kimitsu-tateyama.png" alt="君津バスターミナル・館山" /></p>
+						<p class="routeInfoMenu__item__tit">君津バスターミナル・館山</p>
+					</a>
+				</li>
+
+				<li class="routeInfoMenu__item type02">
+					<a href="<?=get_bloginfo("url"); ?>/route/mobara/" class="over">
+						<p class="routeInfoMenu__item__pic"><img src="<?=get_bloginfo('template_directory'); ?>/img/routeInfoMenu_mobara.png" alt="茂原" /></p>
+						<p class="routeInfoMenu__item__tit">茂原</p>
+					</a>
+				</li>
+
+				<li class="routeInfoMenu__item type02">
+					<a href="<?=get_bloginfo("url"); ?>/route/gotemba-hakone/" class="over">
+						<p class="routeInfoMenu__item__pic"><img src="<?=get_bloginfo('template_directory'); ?>/img/routeInfoMenu_gotemba-hakone.png" alt="御殿場・箱根桃源台" /></p>
+						<p class="routeInfoMenu__item__tit">御殿場・箱根桃源台</p>
+					</a>
+				</li>
+
+				<li class="routeInfoMenu__item type02">
+					<a href="<?=get_bloginfo("url"); ?>/route/kofu-ryuo/" class="over">
+						<p class="routeInfoMenu__item__pic"><img src="<?=get_bloginfo('template_directory'); ?>/img/routeInfoMenu_kofu-ryuo.png" alt="甲府・竜王" /></p>
+						<p class="routeInfoMenu__item__tit">甲府・竜王</p>
+					</a>
+				</li>
+
+				<li class="routeInfoMenu__item type02">
+					<a href="<?=get_bloginfo("url"); ?>/route/mitsui-kisarazu/" class="over">
+						<p class="routeInfoMenu__item__pic"><img src="<?=get_bloginfo('template_directory'); ?>/img/routeInfoMenu_mitsui-kisarazu.png" alt="三井アウトレットパーク木更津" /></p>
+						<p class="routeInfoMenu__item__tit">三井アウトレットパーク木更津</p>
+					</a>
+				</li>
+
+
 			</ul>
 		</div>
 	</div>

@@ -29,6 +29,14 @@ var chatData = {
 				"	<li><a href='$site/faq/#yokosuka'>葉山・横須賀西地区線</a></li>",
 				"	<li><a href='$site/faq/#seaparadise'>横浜・八景島シーパラダイス線</a></li>",
 				"	<li><a href='$site/faq/#makuhari'>幕張線</a></li>",
+
+				"	<li><a href='$site/route/goi-soga/'>五井・蘇我</a></li>",
+				"	<li><a href='$site/route/kimitsu-tateyama/'>君津バスターミナル・館山</a></li>",
+				"	<li><a href='$site/route/mobara/'>茂原</a></li>",
+				"	<li><a href='$site/route/gotemba-hakone/'>御殿場・箱根桃源台</a></li>",
+				"	<li><a href='$site/route/kofu-ryuo/'>甲府・竜王</a></li>",
+				"	<li><a href='$site/route/mitsui-kisarazu/'>三井アウトレットパーク木更津</a></li>",
+
 				"	<li><a href='$site/faq/#facility'>施設について</a></li>",
 				"	<li><a href='$site/faq/#other'>その他</a></li>",
 				"	<li><span class='fancybox over' id='animatedModal03-Btn' href='#animatedModal01'>ホームページを検索する</span></li>",
