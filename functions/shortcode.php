@@ -1962,6 +1962,140 @@ function post_type_TIMETABLEPRINTCSV_shortcode($terms) {
 		$html .= 'printURL = printURL + "&flag=";'."\n";
 		break;
 
+
+	// ****************************************
+	// 五井・蘇我　（YCAT⇒五井・蘇我） - 【202509 - 6路線追加対応】
+	// ****************************************
+	case 'ycat2goi-soga':
+
+		$html .= 'printURL = printURL + "slug[0]=ycat2goi-soga";'."\n";
+		$html .= 'printURL = printURL + "&tit[0]= YCAT⇒五井・蘇我";'."\n";
+		$html .= 'printURL = printURL + "&flag=";'."\n";
+
+		break;
+
+	// ****************************************
+	// 五井・蘇我　（五井・蘇我⇒YCAT） - 【202509 - 6路線追加対応】
+	// ****************************************
+	case 'goi-soga2ycat':
+
+		$html .= 'printURL = printURL + "slug[0]=goi-soga2ycat";'."\n";
+		$html .= 'printURL = printURL + "&tit[0]= 五井・蘇我⇒YCAT";'."\n";
+		$html .= 'printURL = printURL + "&flag=";'."\n";
+
+		break;
+
+	// ****************************************
+	// 君津バスターミナル・館山　（YCAT⇒君津バスターミナル・館山） - 【202509 - 6路線追加対応】
+	// ****************************************
+	case 'ycat2kimitsu-tateyama':
+
+		$html .= 'printURL = printURL + "slug[0]=ycat2kimitsu-tateyama";'."\n";
+		$html .= 'printURL = printURL + "&tit[0]= YCAT⇒君津バスターミナル・館山";'."\n";
+		$html .= 'printURL = printURL + "&flag=";'."\n";
+
+		break;
+
+	// ****************************************
+	// 君津バスターミナル・館山　（君津バスターミナル・館山⇒YCAT） - 【202509 - 6路線追加対応】
+	// ****************************************
+	case 'kimitsu-tateyama2ycat':
+
+		$html .= 'printURL = printURL + "slug[0]=kimitsu-tateyama2ycat";'."\n";
+		$html .= 'printURL = printURL + "&tit[0]= 君津バスターミナル・館山⇒YCAT";'."\n";
+		$html .= 'printURL = printURL + "&flag=";'."\n";
+
+		break;
+
+	// ****************************************
+	// 茂原　（YCAT⇒茂原） - 【202509 - 6路線追加対応】
+	// ****************************************
+	case 'ycat2mobara':
+
+		$html .= 'printURL = printURL + "slug[0]=ycat2mobara";'."\n";
+		$html .= 'printURL = printURL + "&tit[0]= YCAT⇒茂原";'."\n";
+		$html .= 'printURL = printURL + "&flag=";'."\n";
+
+		break;
+
+	// ****************************************
+	// 茂原　（茂原⇒YCAT） - 【202509 - 6路線追加対応】
+	// ****************************************
+	case 'mobara2ycat':
+
+		$html .= 'printURL = printURL + "slug[0]=mobara2ycat";'."\n";
+		$html .= 'printURL = printURL + "&tit[0]= 茂原⇒YCAT";'."\n";
+		$html .= 'printURL = printURL + "&flag=";'."\n";
+
+		break;
+
+	// ****************************************
+	// 御殿場・箱根桃源台　（YCAT⇒御殿場・箱根桃源台） - 【202509 - 6路線追加対応】
+	// ****************************************
+	case 'ycat2gotemba-hakone':
+
+		$html .= 'printURL = printURL + "slug[0]=ycat2gotemba-hakone";'."\n";
+		$html .= 'printURL = printURL + "&tit[0]= YCAT⇒御殿場・箱根桃源台";'."\n";
+		$html .= 'printURL = printURL + "&flag=";'."\n";
+
+		break;
+
+	// ****************************************
+	// 御殿場・箱根桃源台　（御殿場・箱根桃源台⇒YCAT） - 【202509 - 6路線追加対応】
+	// ****************************************
+	case 'gotemba-hakone2ycat':
+
+		$html .= 'printURL = printURL + "slug[0]=gotemba-hakone2ycat";'."\n";
+		$html .= 'printURL = printURL + "&tit[0]= 御殿場・箱根桃源台⇒YCAT";'."\n";
+		$html .= 'printURL = printURL + "&flag=";'."\n";
+
+		break;
+
+	// ****************************************
+	// 甲府・竜王　（YCAT⇒甲府・竜王） - 【202509 - 6路線追加対応】
+	// ****************************************
+	case 'ycat2kofu-ryuo':
+
+		$html .= 'printURL = printURL + "slug[0]=ycat2kofu-ryuo";'."\n";
+		$html .= 'printURL = printURL + "&tit[0]= YCAT⇒甲府・竜王";'."\n";
+		$html .= 'printURL = printURL + "&flag=";'."\n";
+
+		break;
+
+	// ****************************************
+	// 甲府・竜王　（甲府・竜王⇒YCAT） - 【202509 - 6路線追加対応】
+	// ****************************************
+	case 'kofu-ryuo2ycat':
+
+		$html .= 'printURL = printURL + "slug[0]=kofu-ryuo2ycat";'."\n";
+		$html .= 'printURL = printURL + "&tit[0]= 甲府・竜王⇒YCAT";'."\n";
+		$html .= 'printURL = printURL + "&flag=";'."\n";
+
+		break;
+
+	// ****************************************
+	// 三井アウトレットパーク木更津　（YCAT⇒三井アウトレットパーク木更津） - 【202509 - 6路線追加対応】
+	// ****************************************
+	case 'ycat2mitsui-kisarazu':
+
+		$html .= 'printURL = printURL + "slug[0]=ycat2mitsui-kisarazu";'."\n";
+		$html .= 'printURL = printURL + "&tit[0]= YCAT⇒三井アウトレットパーク木更津";'."\n";
+		$html .= 'printURL = printURL + "&flag=";'."\n";
+
+		break;
+
+	// ****************************************
+	// 三井アウトレットパーク木更津　（三井アウトレットパーク木更津⇒YCAT） - 【202509 - 6路線追加対応】
+	// ****************************************
+	case 'mitsui-kisarazu2ycat':
+
+		$html .= 'printURL = printURL + "slug[0]=mitsui-kisarazu2ycat";'."\n";
+		$html .= 'printURL = printURL + "&tit[0]= 三井アウトレットパーク木更津⇒YCAT";'."\n";
+		$html .= 'printURL = printURL + "&flag=";'."\n";
+
+		break;
+
+
 	// ****************************************
 	// 東扇島　（YCAT ⇒ 東扇島）
 	// ****************************************

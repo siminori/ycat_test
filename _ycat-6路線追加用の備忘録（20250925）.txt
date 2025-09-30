@@ -16,9 +16,9 @@
 
 	goi-soga/goi-soga2ycat
 
-	https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/goi-soga/
-	https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/goi-soga/ycat2goi-soga/
-	https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/goi-soga/goi-soga2ycat/
+https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/goi-soga/
+https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/goi-soga/ycat2goi-soga/
+https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/goi-soga/goi-soga2ycat/
 
 
 	# ■ 時刻表CSV
@@ -54,9 +54,9 @@
 
 	kimitsu-tateyama/kimitsu-tateyama2ycat
 
-	https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/kimitsu-tateyama/
-	https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/kimitsu-tateyama/ycat2kimitsu-tateyama/
-	https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/kimitsu-tateyama/kimitsu-tateyama2ycat/
+https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/kimitsu-tateyama/
+https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/kimitsu-tateyama/ycat2kimitsu-tateyama/
+https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/kimitsu-tateyama/kimitsu-tateyama2ycat/
 
 
 
@@ -124,9 +124,9 @@
 	gotemba-hakone/gotemba-hakone2ycat
 
 
-	https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/gotemba-hakone/
-	https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/gotemba-hakone/ycat2gotemba-hakone/
-	https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/gotemba-hakone/gotemba-hakone2ycat/
+https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/gotemba-hakone/
+https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/gotemba-hakone/ycat2gotemba-hakone/
+https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/gotemba-hakone/gotemba-hakone2ycat/
 
 
 	# ■ 時刻表CSV
@@ -161,9 +161,9 @@
 
 	kofu-ryuo/kofu-ryuo2ycat
 
-	https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/kofu-ryuo/
-	https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/kofu-ryuo/ycat2kofu-ryuo/
-	https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/kofu-ryuo/kofu-ryuo2ycat/
+https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/kofu-ryuo/
+https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/kofu-ryuo/ycat2kofu-ryuo/
+https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/kofu-ryuo/kofu-ryuo2ycat/
 
 
 	# ■ 時刻表CSV
@@ -200,9 +200,9 @@
 	mitsui-kisarazu/mitsui-kisarazu2ycat
 
 
-	https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/mitsui-kisarazu/
-	https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/mitsui-kisarazu/ycat2mitsui-kisarazu/
-	https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/mitsui-kisarazu/mitsui-kisarazu2ycat/
+https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/mitsui-kisarazu/
+https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/mitsui-kisarazu/ycat2mitsui-kisarazu/
+https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/route/mitsui-kisarazu/mitsui-kisarazu2ycat/
 
 
 	# ■ 時刻表CSV
@@ -220,6 +220,16 @@
 	### よくある質問用カテゴリー
 
 		三井アウトレットパーク木更津（mitsui-kisarazu）
+
+
+■■■■■■■■■■■■■■■■■■■■■
+フロアマップ
+■■■■■■■■■■■■■■■■■■■■■
+
+■　バスのりば
+https://camel-yellow-12a011ea5f882c43.znlc.jp/wp_ycat/guide/floormap/busstop/
+
+
 
 
 

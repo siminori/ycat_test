@@ -4118,6 +4118,18 @@ ul.qa-catLst li{
   text-decoration: none;
 }
 
+
+
+/* 通勤・通学定期*/
+
+table.fareTbl tbody th {
+  writing-mode: vertical-rl; /* 縦書き (右→左) */
+  text-orientation: upright; /* 日本語を正しく縦表示 */
+}
+table.fareTbl tbody td {
+	font-size:14px;
+}
+
 /*-------------------------------------------------------------------
 
 	アコーディオン機能
