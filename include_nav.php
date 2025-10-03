@@ -32,6 +32,15 @@
 							<li class="menuLst01__item"><a href="<?=get_bloginfo("url"); ?>/route/yokosuka/">葉山・横須賀西地区</a></li>
 							<li class="menuLst01__item"><a href="<?=get_bloginfo("url"); ?>/route/seaparadise/">横浜･八景島シーパラダイス</a></li>
 							<li class="menuLst01__item"><a href="<?=get_bloginfo("url"); ?>/route/makuhari/">幕張メッセ（イベント日限定）</a></li>
+
+							<li class="menuLst01__item"><a href="<?=get_bloginfo("url"); ?>/route/goi-soga/">五井・蘇我</a></li>
+							<li class="menuLst01__item"><a href="<?=get_bloginfo("url"); ?>/route/kimitsu-tateyama/">君津バスターミナル・館山</a></li>
+							<li class="menuLst01__item"><a href="<?=get_bloginfo("url"); ?>/route/mobara/">茂原</a></li>
+							<li class="menuLst01__item"><a href="<?=get_bloginfo("url"); ?>/route/gotemba-hakone/">御殿場・箱根桃源台</a></li>
+							<li class="menuLst01__item"><a href="<?=get_bloginfo("url"); ?>/route/kofu-ryuo/">甲府・竜王</a></li>
+							<li class="menuLst01__item"><a href="<?=get_bloginfo("url"); ?>/route/mitsui-kisarazu/">三井アウトレットパーク木更津</a></li>
+
+
 							<li class="menuLst01__item"><a href="<?=get_bloginfo("url"); ?>/route/operation/">本日の運行予定</a></li>
 							<li class="menuLst01__item"><a href="<?=get_bloginfo("url"); ?>/route/companylist/">運行バス会社一覧</a></li>
 						</ul>
