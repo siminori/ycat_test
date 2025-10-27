@@ -668,6 +668,55 @@ body.daiba2ycat .pageHeader {
   background-image: url(../img/pageHeader_daiba.png);
 }
 
+
+
+
+/* 路線 - 五井・蘇我 */
+body.goi-soga .pageHeader,
+body.ycat2goi-soga .pageHeader,
+body.goi-soga2ycat .pageHeader {
+  /*background-image: url(../img/pageHeader_goi-soga.png);*/
+}
+
+/* 路線 - 君津バスターミナル・館山 */
+body.kimitsu-tateyama .pageHeader,
+body.ycat2kimitsu-tateyama .pageHeader,
+body.kimitsu-tateyama2ycat .pageHeader {
+  /*background-image: url(../img/pageHeader_kimitsu-tateyama.png);*/
+}
+
+/* 路線 - 茂原 */
+body.mobara .pageHeader,
+body.ycat2mobara .pageHeader,
+body.mobara2ycat .pageHeader {
+  /*background-image: url(../img/pageHeader_mobara.png);*/
+}
+
+/* 路線 - 御殿場・箱根桃源台 */
+body.gotemba-hakone .pageHeader,
+body.ycat2gotemba-hakone .pageHeader,
+body.gotemba-hakone2ycat .pageHeader {
+  background-image: url(../img/pageHeader_gotemba-hakone.png);
+}
+
+/* 路線 - 甲府・竜王 */
+body.kofu-ryuo .pageHeader,
+body.ycat2kofu-ryuo .pageHeader,
+body.kofu-ryuo2ycat .pageHeader {
+  background-image: url(../img/pageHeader_kofu-ryuo.png);
+}
+
+/* 路線 - 三井アウトレットパーク木更津 */
+body.mitsui-kisarazu .pageHeader,
+body.ycat2mitsui-kisarazu .pageHeader,
+body.mitsui-kisarazu2ycat .pageHeader {
+  background-image: url(../img/pageHeader_mitsui-kisarazu.png);
+}
+
+
+
+
+
 /*　運行バス会社・中長距離・運行予定・幕張メッセ */
 body.companylist .pageHeader {
   background-image: url(../img/pageHeader_companylist.png);
@@ -3280,6 +3329,10 @@ ul.qa-catLst li{
   border: solid 2px #fff;
   letter-spacing: 1px;
 }
+
+
+
+
 .fareTbl tbody td {
   padding: 20px;
   background: #e6f4fd;
@@ -3287,6 +3340,24 @@ ul.qa-catLst li{
   border: solid 2px #fff;
   line-height: 1.6;
 }
+
+
+body.kofu-ryuo .fareTbl tbody th ,
+body.kofu-ryuo .fareTbl tbody td ,
+
+body.gotemba-hakone .fareTbl tbody th ,
+body.gotemba-hakone .fareTbl tbody td ,
+
+body.mobara .fareTbl tbody th ,
+body.mobara .fareTbl tbody td ,
+
+body.kimitsu-tateyama .fareTbl tbody th ,
+body.kimitsu-tateyama .fareTbl tbody td {
+  min-width: auto;
+  padding:20px 10px;
+}
+
+
 .fareTbl__price {
   font-size: 25px;
   font-weight: bold;
